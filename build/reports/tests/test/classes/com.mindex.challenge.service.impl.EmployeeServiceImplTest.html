@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.mindex.challenge.service.impl.EmployeeServiceImplTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.mindex.challenge.service.impl.EmployeeServiceImplTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.mindex.challenge.service.impl.html">com.mindex.challenge.service.impl</a> &gt; EmployeeServiceImplTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.242s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCreateReadUpdate</td>
+<td class="success">0.242s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2023-01-07 23:22:59.852  INFO 10400 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mindex.challenge.service.impl.EmployeeServiceImplTest], using SpringBootContextLoader
+2023-01-07 23:22:59.854  INFO 10400 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.mindex.challenge.service.impl.EmployeeServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-01-07 23:22:59.856  INFO 10400 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.mindex.challenge.service.impl.EmployeeServiceImplTest]: EmployeeServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-01-07 23:22:59.863  INFO 10400 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.mindex.challenge.ChallengeApplication for test class com.mindex.challenge.service.impl.EmployeeServiceImplTest
+2023-01-07 23:22:59.870  INFO 10400 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-01-07 23:22:59.872  INFO 10400 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@111fe921, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1ff542a3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@48ee3c2d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@54387873, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a80c534, org.springframework.test.context.transaction.TransactionalTestExecutionListener@fd5689d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@36e3321e, org.springframework.test.context.event.EventPublishingTestExecutionListener@218f2f51, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1d9af731, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@39afe59f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@16f34376, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4ede035e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@43756cb]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.0.RELEASE)
+
+2023-01-07 23:22:59.926  INFO 10400 --- [    Test worker] c.m.c.s.impl.EmployeeServiceImplTest     : Starting EmployeeServiceImplTest on Ubuntu with PID 10400 (started by tewa300 in /home/tewa300/CodingChallenge/mindex-java-code-challenge)
+2023-01-07 23:22:59.926 DEBUG 10400 --- [    Test worker] c.m.c.s.impl.EmployeeServiceImplTest     : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2023-01-07 23:22:59.929  INFO 10400 --- [    Test worker] c.m.c.s.impl.EmployeeServiceImplTest     : No active profile set, falling back to default profiles: default
+2023-01-07 23:23:00.090  INFO 10400 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-01-07 23:23:00.097  INFO 10400 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 1 repository interfaces.
+2023-01-07 23:23:00.352  INFO 10400 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-01-07 23:23:00.368  INFO 10400 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-07 23:23:00.368  INFO 10400 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2023-01-07 23:23:00.461  INFO 10400 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-07 23:23:00.462  INFO 10400 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 529 ms
+2023-01-07 23:23:00.553  INFO 10400 --- [    Test worker] de.bwaldvogel.mongo.MongoServer          : started MongoServer(port: 46061, ssl: false)
+2023-01-07 23:23:00.557  INFO 10400 --- [    Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:46061], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2023-01-07 23:23:00.565  WARN 10400 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2023-01-07 23:23:00.566  WARN 10400 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2023-01-07 23:23:00.568  WARN 10400 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2023-01-07 23:23:00.572  INFO 10400 --- [-server-worker1] d.b.mongo.wire.MongoWireProtocolHandler  : client [id: 0x0cceca8f, L:/127.0.0.1:46061 - R:/127.0.0.1:54790] connected
+2023-01-07 23:23:00.587  WARN 10400 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2023-01-07 23:23:00.624  INFO 10400 --- [127.0.0.1:46061] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3}] to 127.0.0.1:46061
+2023-01-07 23:23:00.626  INFO 10400 --- [127.0.0.1:46061] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:46061, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1836679}
+2023-01-07 23:23:00.741  INFO 10400 --- [-server-worker2] d.b.mongo.wire.MongoWireProtocolHandler  : client [id: 0xf7fe99f5, L:/127.0.0.1:46061 - R:/127.0.0.1:54802] connected
+2023-01-07 23:23:00.769  INFO 10400 --- [    Test worker] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4}] to 127.0.0.1:46061
+2023-01-07 23:23:00.774  INFO 10400 --- [-server-worker2] d.b.mongo.backend.AbstractMongoBackend   : created database test
+2023-01-07 23:23:00.774  INFO 10400 --- [-server-worker2] d.b.mongo.backend.AbstractMongoDatabase  : adding unique _id index for collection employee
+2023-01-07 23:23:00.775  INFO 10400 --- [-server-worker2] d.b.mongo.backend.AbstractMongoDatabase  : created collection test.employee
+2023-01-07 23:23:00.864  INFO 10400 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-07 23:23:01.011  WARN 10400 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2023-01-07 23:23:01.012  WARN 10400 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2023-01-07 23:23:01.035  WARN 10400 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2023-01-07 23:23:01.046  WARN 10400 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2023-01-07 23:23:01.154  INFO 10400 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 36637 (http) with context path ''
+2023-01-07 23:23:01.156  INFO 10400 --- [    Test worker] c.m.c.s.impl.EmployeeServiceImplTest     : Started EmployeeServiceImplTest in 1.277 seconds (JVM running for 7.18)
+2023-01-07 23:23:01.285  INFO 10400 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-07 23:23:01.286  INFO 10400 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-07 23:23:01.301  INFO 10400 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2023-01-07 23:23:01.345 DEBUG 10400 --- [o-auto-1-exec-1] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@b23eece]
+2023-01-07 23:23:01.346 DEBUG 10400 --- [o-auto-1-exec-1] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@b23eece]
+2023-01-07 23:23:01.376 DEBUG 10400 --- [o-auto-1-exec-2] c.m.c.controller.EmployeeController      : Received employee create request for id [96a97992-ec88-4c28-a9a2-52e6bcf25a55]
+2023-01-07 23:23:01.376 DEBUG 10400 --- [o-auto-1-exec-2] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee with id [96a97992-ec88-4c28-a9a2-52e6bcf25a55]
+2023-01-07 23:23:01.392 DEBUG 10400 --- [o-auto-1-exec-3] c.m.c.controller.EmployeeController      : Received employee create request for id [96a97992-ec88-4c28-a9a2-52e6bcf25a55] and employee [com.mindex.challenge.data.Employee@48cddd90]
+2023-01-07 23:23:01.393 DEBUG 10400 --- [o-auto-1-exec-3] c.m.c.service.impl.EmployeeServiceImpl   : Updating employee [com.mindex.challenge.data.Employee@48cddd90]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4.2</a> at Jan 7, 2023, 11:23:01 PM</p>
+</div>
+</div>
+</body>
+</html>
