@@ -42,9 +42,4 @@ public class EmployeeController {
         employee.setEmployeeId(id);
         return employeeService.update(employee);
     }
-    
-    @GetMapping("/getEmplyee")
-    public List<Employee> getEmployee(){
-    	return this.emploteeRepo.findAll();
-    }
 }
